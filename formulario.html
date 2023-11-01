@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULARIO DE CADASTRO</title>
+        <style>
+            div.bloco {
+                background-image: url(cadastro.jpg);
+                height: 300px;
+                border-radius: 10px;
+                margin: 20px;
+            }
+            div.corpo{
+                display: flex; 
+                align-items: center;
+            }
+            body{
+                font-size: larger;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: rgb(152, 209, 255);
+            }
+            p{
+                font-size: small;
+            }
+            .container {
+                max-width: 400px;
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            }
+            .form-group {
+                margin-bottom: 20px;
+            }
+            .form-group label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            .form-group input[type="text"],
+            .form-group input[type="email"] {
+                width: 100%;
+                padding: 5px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .form-group input[type="submit"] {
+                background-color: #2671e0;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            .form-group input[type="submit"]:hover {
+                background-color: #24e024;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bloco"></div>
+        <div class="container">
+            <h1>CADASTRO DO ALUNO</h1>
+            <form method="post" action="#" enctype="">
+            <div class="form-group">
+                <label for="Nome">NOME:</label>
+                <input type="text" name="Nome" id="Nome" placeholder="Nome" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Sobrenome">SOBRENOME:</label>
+                <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Data_Nasc">DATA NASC:</label>
+                <input type="date" name="Data_Nasc" id="Data_Nasc" placeholder="Data_Nasc" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="CPF">CPF:</label>
+                <input type="text" name="CPF" id="CPF" placeholder="CPF" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Matricula">MATRÍCULA:</label>
+                <input type="text" name="Matricula" id="Matricula" placeholder="Matricula" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Telefone">TELEFONE:</label>
+                <input type="text" name="Telefone" id="Telefone" placeholder="Telefone" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Email">E-MAIL:</label>
+                <input type="email" name="Email" id="Email" placeholder="Email" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Campus_IF">CAMPUS IF:</label>
+                <input type="text" name="Campus IF" id="Campus IF" placeholder="Cidade do Campus IF" size="40" required><br>
+            </div>
+            <div class="form-group">
+                    <p><input type="submit" value="ENVIAR"></p>
+            </div>
+            </form>
+        </div>
+        <br>
+        <div class="container">
+            <h1>CADASTRO DO PROFESSOR:</h1>
+            <form method="post" action="#" enctype="">
+            <div class="form-group">
+                <label for="Nome">NOME:</label>
+                <input type="text" name="Nome" id="Nome" placeholder="Nome" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Sobrenome">SOBRENOME:</label>
+                <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Data_Nasc">DATA NASC:</label>
+                <input type="date" name="Data_Nasc" id="Data_Nasc" placeholder="Data_Nasc" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="CPF">CPF:</label>
+                <input type="text" name="CPF" id="CPF" placeholder="CPF" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Disciplina">DISCIPLINA:</label>
+                <input type="text" name="Disciplina" id="Disciplina" placeholder="Disciplina" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Telefone">TELEFONE:</label>
+                <input type="text" name="Telefone" id="Telefone" placeholder="Telefone" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Email">E-MAIL:</label>
+                <input type="email" name="Email" id="Email" placeholder="Email" size="40" required><br>
+            </div>
+            <div class="form-group">
+                <label for="Campus_IF">CAMPUS IF:</label>
+                <input type="text" name="Campus IF" id="Campus IF" placeholder="Cidade do Campus IF" size="40" required><br>
+            </div>
+            <div class="form-group">
+                    <p><input type="submit" value="ENVIAR"></p>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
